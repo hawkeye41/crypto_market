@@ -14,3 +14,84 @@ a {
 * {
   box-sizing: border-box;
 }
+.coins
+{  
+  margin-left: 12em;
+  margin-right: 12em;
+  display: grid;
+  grid-gap: 1rem;
+  margin-top: 30px;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+
+}
+.cointainer{
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  border: none;
+}
+
+.cointainer:focus{
+  outline: none;
+}
+
+
+.element{
+  width: 100%;
+  display: flex;
+  background-color: rgb(39, 168, 243);
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+ 
+.element img{
+  width: 40px;
+  height: 40px;
+}
+.div1{
+  width: 100%;
+  /* background-color: blanchedalmond; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.div2{
+  width: 100%;
+  /* background-color: blanchedalmond; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.details{
+  width: 100%;
+  padding: 15px;
+}
+.symbol{
+  text-transform: uppercase;
+}
+.loss{
+  color: red;
+}
+.gain{
+  color: green;
+}
+/*********************************************searchbzar***********/
+.coin-search{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.input{
+  margin-top: 5rem;
+  height: 2.5rem;
+  background-color: rgb(175, 168, 168);
+  width: 30rem;
+  border: none;
+}
+.input:focus{
+  outline: none;
+}
